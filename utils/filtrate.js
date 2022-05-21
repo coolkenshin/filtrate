@@ -2,47 +2,49 @@ const tabTxt = [
   {
     'text': '价格',
     'active': false,
-    'child': [{
-      'id': 1,
-      'title': "价格",
-      'childType': [{
+    'child': [
+      {
         'id': 1,
-        'text': '2万以下',
-        'selected': false,
-      },
-      {
-        'id': 2,
-        'text': '2-5万',
-        'selected': false,
-      },
-      {
-        'id': 3,
-        'text': '5-10万',
-        'selected': false,
-      },
-      {
-        'id': 4,
-        'text': '10-20万',
-        'selected': false,
-      },
-      {
-        'id': 5,
-        'text': '20-30万',
-        'selected': false,
-      },
-      {
-        'id': 6,
-        'text': '30-40万',
-        'selected': false,
-      },
-      {
-        'id': 7,
-        'text': '40万以上',
-        'selected': false,
-      }
-      ],
-      'type': 0
-    }]
+        'title': "价格",
+        'childType': [
+            {
+              'id': 1,
+              'text': '2万以下',
+              'selected': false,
+            },
+            {
+              'id': 2,
+              'text': '2-5万',
+              'selected': false,
+            },
+            {
+              'id': 3,
+              'text': '5-10万',
+              'selected': false,
+            },
+            {
+              'id': 4,
+              'text': '10-20万',
+              'selected': false,
+            },
+            {
+              'id': 5,
+              'text': '20-30万',
+              'selected': false,
+            },
+            {
+              'id': 6,
+              'text': '30-40万',
+              'selected': false,
+            },
+            {
+              'id': 7,
+              'text': '40万以上',
+              'selected': false,
+            }
+        ],
+        'type': 0
+      }]
   },
   {
     'text': '地区',
