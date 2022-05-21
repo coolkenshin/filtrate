@@ -1,6 +1,6 @@
 {
     "navigationBarTitleText": "首页",
     "usingComponents": {
-      "blockfilter": "/components/blockfilter"
+      "blockfilter": "/components/blockfilter/blockfilter"
     }
   }
